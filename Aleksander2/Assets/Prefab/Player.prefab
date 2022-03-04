@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3848378211437119264}
   - component: {fileID: 3848378211437119265}
   - component: {fileID: 3848378211437119294}
-  - component: {fileID: 3848378211437119295}
   - component: {fileID: 3848378211437119292}
   - component: {fileID: 3848378211437119293}
   - component: {fileID: 3848378211437119290}
@@ -121,28 +120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc7ba7fc611dfa44e80d937c04e397fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  android: 0
+  joystick: {fileID: 0}
   speed: 8
   jumpForce: 3
   facingRight: 1
---- !u!114 &3848378211437119295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3848378211437119291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdadf09b04bf9a24c899133f7db5c92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggleAnswersVisibility: {fileID: 0}
-  npcName: 
-  texts: []
-  viewAnswers: 
-  hideAnswers: 
-  hideBox: 0
-  viewOnlyYes: 
 --- !u!114 &3848378211437119292
 MonoBehaviour:
   m_ObjectHideFlags: 0
